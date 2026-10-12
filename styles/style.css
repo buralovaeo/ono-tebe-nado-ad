@@ -1,7 +1,7 @@
 /*      ХЕДЕР      */
 .header {
     width: 1100px;
-    height: 293px;        
+    height: 293px;
     background-color: #FFFFFF;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -156,7 +156,7 @@
     font-size: 22px;
     line-height: 28px;
     letter-spacing: 0;
-    word-spacing: 0.9em;      
+    word-spacing: 0.9em;
     text-transform: uppercase;
     margin: 0;
     max-width: 60%;
@@ -168,7 +168,7 @@
     background: transparent;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
-    padding: 16px;             
+    padding: 16px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 22px;
@@ -235,13 +235,13 @@
     color: #FFFFFF;
 }
 
-.card_type_film { 
+.card_type_film {
     background-image: url("../img/photo_lot_1.png");
 }
-.card_type_book { 
+.card_type_book {
     background-image: url("../img/photo_lot_2.png");
 }
-.card_type_picture { 
+.card_type_picture {
     background-image: url("../img/photo_lot_3.png");
 }
 
@@ -286,6 +286,14 @@
 
 .about__logo {
     flex-shrink: 0;
+    width: 291px;
+    height: 291px;
+    border-radius: 50%;
+    background-color: #000;
+    background-image: url("../img/logo-white.png");
+    background-size: 180px auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .about__logo-image {
