@@ -126,9 +126,15 @@
     letter-spacing: 0.3em;
 }
 
-.aligned-text_left { text-align: left; }
-.aligned-text_center { text-align: center; }
-.aligned-text_right { text-align: right; }
+.aligned-text_left { 
+    text-align: left; 
+}
+.aligned-text_center { 
+    text-align: center; 
+}
+.aligned-text_right { 
+    text-align: right; 
+}
 
 .cover__description {
     position: relative;
@@ -223,9 +229,15 @@
     color: #FFFFFF;
 }
 
-.card_type_film { background-image: url("../img/photo_lot_1.png"); }
-.card_type_book { background-image: url("../img/photo_lot_2.png"); }
-.card_type_picture { background-image: url("../img/photo_lot_3.png"); }
+.card_type_film { 
+    background-image: url("../img/photo_lot_1.png"); 
+}
+.card_type_book { 
+    background-image: url("../img/photo_lot_2.png"); 
+}
+.card_type_picture { 
+    background-image: url("../img/photo_lot_3.png"); 
+}
 
 .card__title {
     position: relative;
