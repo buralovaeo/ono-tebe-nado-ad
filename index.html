@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@500;800&display=swap" rel="stylesheet">
@@ -28,7 +30,7 @@
 
         <!-- Логотип -->
         <div class="header__logo">
-            <img src="./img/logo.svg" alt="лого" width="148" height="105" class="header__logo-image">
+            <img src="./img/logo.svg" alt="лого" class="header__logo-image">
         </div>
 
         <!-- Контакты -->
@@ -40,15 +42,14 @@
     </header>
 
     <main> 
-
-        <!-- Первая секция -->
+        <!-- Первая секция (cover) -->
         <section class="cover">
             <div class="overlay"></div>
             
             <h1 class="cover__title">
-                <span class="aligned-text aligned-text_left letter-spacing-extended">ОНО</span>
-                <span class="aligned-text aligned-text_center letter-spacing-extended">ТЕБЕ</span>
-                <span class="aligned-text aligned-text_right letter-spacing-extended no-letter-spacing">НАДО</span>
+                <span class="aligned-text aligned-text_left">ОНО</span>
+                <span class="aligned-text aligned-text_center">ТЕБЕ</span>
+                <span class="aligned-text aligned-text_right">НАДО</span>
             </h1>
 
             <div class="cover__description">
@@ -98,25 +99,23 @@
 
         <!-- Об аукционе -->
         <section class="about">
-            <!-- Колонка с логотипом -->
-            <div class="about__column">
-                <div class="about__logo">
-                    <img src="./img/logo-column.png" alt="лого" class="about__logo-image">
-                </div>
+
+            <div class="about__logo">
+                <img src="./img/logo-column.png" alt="лого" class="about__logo-image">
             </div>
 
-            <!-- Колонка с текстом -->
-            <div class="about__column">
+            <div class="about__content">
                 <h2 class="about__title">Об аукционе</h2>
                 
-                <div class="about__text">
-                    <p>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
-                    
-                    <p>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятные. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
-                </div>
+                <p class="about__text">
+                    Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+                </p>
+                
+                <p class="about__text">
+                    Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятные. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.
+                </p>
             </div>
         </section>
-
     </main>
 
     <footer class="footer">
@@ -151,7 +150,7 @@
             </li>
             <li class="footer__social-list-item">
                 <a href="#" class="footer__social-link">
-                    <img src="./img/Vk.png" alt="VK" class="footer__social-icon">
+                    <img src="./img/VK.png" alt="VK" class="footer__social-icon">
                 </a>
             </li>
             <li class="footer__social-list-item">
