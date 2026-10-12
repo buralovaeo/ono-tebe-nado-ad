@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
 
@@ -67,7 +67,7 @@
 .address {
     display: flex;
     flex-direction: column;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 1.2;
     font-style: normal;
@@ -127,13 +127,13 @@
 }
 
 .aligned-text_left { 
-    text-align: left; 
+    text-align: left;
 }
 .aligned-text_center { 
-    text-align: center; 
+    text-align: center;
 }
 .aligned-text_right { 
-    text-align: right; 
+    text-align: right;
 }
 
 .cover__description {
@@ -343,7 +343,7 @@
     flex-direction: column;
     align-items: center;
     gap: 4px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
 
